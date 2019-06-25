@@ -1,0 +1,19 @@
+# Vim swap files
+.*.swp
+.*.swq
+
+# The binaries
+server/server
+client/client
+
+# The server database
+server/ots-cert.db
+
+# The config files with real creds in
+ots-cert-client.cfg
+ots-cert-server.cfg
+
+# Certificates
+*csr
+*pem
+*key

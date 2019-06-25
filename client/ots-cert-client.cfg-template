@@ -1,0 +1,12 @@
+#################
+# General configuration.
+Interface = ""
+ClientRegistrationURL = "https://<SERVER HOSTNAME>:9443/register"
+CertificateRequestURL = "https://<SERVER HOSTNAME>:9443/get_certificate"
+
+CertFilename = "cert.pem"
+KeyFilename = "private.key"
+CSRFilename = "cert.csr"
+
+[WebServer]
+	port = 8443

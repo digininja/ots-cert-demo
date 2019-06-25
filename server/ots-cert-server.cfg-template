@@ -1,0 +1,15 @@
+#################
+# General configuration.
+domain = "mydomain.test"
+hostname = "otsserver"
+interface = ""
+
+[cloudflareCreds]
+	API_Email = "user@test.com"
+	API_Key = "1234567890123456789012345678901234567"
+
+[webServer]
+	port = 9443
+	ip = "0.0.0.0"
+	certFileName = "cert.pem"
+	keyFileName = "key.pem"
